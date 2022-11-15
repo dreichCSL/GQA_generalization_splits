@@ -1,6 +1,5 @@
-# GQA_generalization_splits
+# GQA generalization data splits
 GQA generalization splits used in "Visually Grounded VQA by Lattice-based Retrieval", Reich et al.
-
 
 
 Each file in the .zip contains a list of question IDs for its named subset. Question IDs are either from GQA balanced train set or val set (no mixing).
