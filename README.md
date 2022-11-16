@@ -1,10 +1,14 @@
 # GQA generalization data splits
-GQA generalization splits used in "Visually Grounded VQA by Lattice-based Retrieval", Reich et al.
-
+GQA generalization splits used in ["Visually Grounded VQA by Lattice-based Retrieval", Reich et al.](http://arxiv.org/abs/2211.08086).
+Splits are based on GQA's balanced data set, downloadable [here](https://cs.stanford.edu/people/dorarad/gqa/download.html).
 
 Each file in the .zip contains a list of question IDs for its named subset. Question IDs are either from GQA balanced train set or val set (no mixing).
 
-- "Objects": 763k Train, 23k Val
-- "LingVariants": 801k Train, 20k Val
-- "Answers": 862k Train, 11k Val
-- "LowResource": 311k Train, 132k Val (i.e. the regular/original balanced val set, not included here)
+| Split | Train | Val |
+| ----------- | ----------- | ----------- |
+| "Objects" | 763k | 23k |
+| "LingVariants | 801k | 20k |
+| "Answers" | 862k | 11k |
+| "LowResource" | 311k | 132k [^1] |
+
+[^1]: The regular/original GQA balanced val set, not included for download here, grab from original GQA dataset release.
